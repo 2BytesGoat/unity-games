@@ -2994,7 +2994,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7ae874aafe741ae4e9004a3661c66982,
         type: 3}
       propertyPath: m_Name
-      value: Player
+      value: PlayerGFX
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ae874aafe741ae4e9004a3661c66982, type: 3}
@@ -3572,6 +3572,7 @@ GameObject:
   - component: {fileID: 1539280615}
   - component: {fileID: 1539280619}
   - component: {fileID: 1539280618}
+  - component: {fileID: 1539280620}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3674,6 +3675,18 @@ MonoBehaviour:
   movementMask:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &1539280620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539280613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9513399ba73d944991b1c15c5b13e18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1556650362
 GameObject:
   m_ObjectHideFlags: 0
