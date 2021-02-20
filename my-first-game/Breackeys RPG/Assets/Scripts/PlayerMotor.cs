@@ -20,7 +20,8 @@ public class PlayerMotor : MonoBehaviour
         if (target != null)
         {
             agent.SetDestination(target.position);
-            FaceTarget();
+            if(agent.velocity != Vector3.zero)
+                FaceTarget();
         }
     }
 
