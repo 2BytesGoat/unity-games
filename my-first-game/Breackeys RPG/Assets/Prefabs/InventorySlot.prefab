@@ -51,6 +51,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   icon: {fileID: 8261504028276297012}
+  removeButton: {fileID: 8261504027437425057}
 --- !u!1 &8261504026939491466
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,7 +288,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8261504027437425059}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6935076683997646141}
+        m_MethodName: OnRemoveButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8261504028276297014
 GameObject:
   m_ObjectHideFlags: 0
