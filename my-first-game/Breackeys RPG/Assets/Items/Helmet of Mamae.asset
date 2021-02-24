@@ -9,9 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0359c748c4fd89243847ecf9b2f70db5, type: 3}
-  m_Name: Helmet
+  m_Script: {fileID: 11500000, guid: e22efc9f49eb2a2419e948f22968d715, type: 3}
+  m_Name: Helmet of Mamae
   m_EditorClassIdentifier: 
-  name: Helmet of Protection
-  icon: {fileID: 21300000, guid: c497278cec8bebe448321a2621d450f2, type: 3}
+  name: Helmet of Mamae
+  icon: {fileID: 21300000, guid: 65ffd21d023145245bb9d366fe8844a9, type: 3}
   isDefaultItem: 0
+  equipSlot: 0
+  armorModifier: 1
+  damageModifier: 2
