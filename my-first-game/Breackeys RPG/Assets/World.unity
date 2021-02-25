@@ -7865,6 +7865,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetMesh: {fileID: 1630794973725139054}
+  defaultItems:
+  - {fileID: 11400000, guid: e381e0fb5604d914fa788e58f923bd4e, type: 2}
+  - {fileID: 11400000, guid: af99cdd75e7ad71429f87203d4a6a8ad, type: 2}
+  - {fileID: 11400000, guid: f7ee5a81fe6205a47b0f0829059f4214, type: 2}
+  - {fileID: 11400000, guid: b5e767ba6ef806b478063f94c08d39fc, type: 2}
 --- !u!1 &1917560325
 GameObject:
   m_ObjectHideFlags: 0
